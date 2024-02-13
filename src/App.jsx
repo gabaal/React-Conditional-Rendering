@@ -2,11 +2,15 @@ import React from 'react'
 import TreeCard from "./Components/TreeCard"
 import Header from "./Components/Header.jsx"
 import Footer from "./Components/Footer.jsx"
+import Monkey from "./Components/Monkey.jsx"
 import "./App.css"
+
+
 export default function App() {
   return (
     <div>
       <Header />
+      <Monkey />
     <  TreeCard treeName='Baobob' location='Across Africa' imgLink='https://media.cntraveller.com/photos/611bf4e3628f4910ed102938/master/w_1600%2Cc_limit/gettyimages-1281090177.jpg'/>
     
     < TreeCard treeName='Gnarled Juniper' location='Arizona' imgLink='https://media.cntraveller.com/photos/611bf4e2f6bd8f17556db944/master/w_1600%2Cc_limit/gettyimages-994569360.jpg'/>
